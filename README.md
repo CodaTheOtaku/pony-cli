@@ -1,7 +1,7 @@
-#!/bin/bash
+Watch MLP in mpv from the command line. 
 
-season=$(printf '%02d' $1)
-
-ep=$(printf '%02d' $2)
-
-mpv --aid=1 https://yp.coco-pommel.org/ypvideo/YP-7R-${season}x${ep}.mkv
+how to use:
+1.clone the git repository
+2. chmod +x pony-cli
+3. ./pony-cli 1 1
+4. enjoy!
